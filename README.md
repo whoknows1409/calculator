@@ -20,7 +20,7 @@ A simple and interactive calculator website built with HTML, CSS, and JavaScript
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/calculator-website.git
+   git clone https://github.com/whoknows1409/calculator.git
    ```
 2. **Open the `index.html` file** in a web browser to access the calculator.
 3. **Start Calculating**:
