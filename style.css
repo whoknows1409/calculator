@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url('fonts/digital-7.ttf') format('truetype'),;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F4F6FF;
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 30px;
+    font-family: 'digital-7', sans-serif;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(209 70.4% 21.2%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background-color: hsl(209 70.4% 31.2%);
+}
+
+button:active{
+    background-color: hsl(209 70.4% 41.2%);
+}
+
+.operator-btn{
+    /*background-color: #7A1CAC;
+    background-color: #EB8317;*/
+    background-color: hsl(31 84.1% 50.6%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.operator-btn:hover{
+    background-color: hsl(31 84.1% 60.6%);
+}
+
+.operator-btn:active{
+    background-color: hsl(31 84.1% 70.6%);
+}
+
+.text-omi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 100px;
+    background-color: hsl(209 70.4% 21.2%);
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    transform: translate(55px, -122px);
+}
