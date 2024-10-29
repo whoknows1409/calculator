@@ -7,7 +7,6 @@ A simple and interactive calculator website built with HTML, CSS, and JavaScript
 ## Features
 
 - **Basic Operations**: Supports addition, subtraction, multiplication, and division.
-- **Responsive Design**: Optimized for different screen sizes, making it accessible on mobile and desktop devices.
 - **Clear and Reset**: Easily reset calculations and clear the display with dedicated buttons.
 - **Error Handling**: Handles invalid inputs and displays error messages where necessary.
 
@@ -27,7 +26,7 @@ A simple and interactive calculator website built with HTML, CSS, and JavaScript
 3. **Start Calculating**:
    - Click on the buttons to input numbers and operators.
    - Use the `=` button to display the result.
-   - Use the `C` or `AC` button to clear the input.
+   - Use the `C` button to clear the input.
 
 ## Screenshot
 
